@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urbana Real Estate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-city logo-icon"></i>
+            <div class="logo-text">
+                <h1>URBANA</h1>
+                <p>REAL ESTATE</p>
+            </div>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html" onclick="window.location.href='index.html'; return false;" >Home</a>
+            <a href="about.html" onclick="window.location.href='about.html'; return false;" >About Us</a>
+            <a href="properties.html" onclick="window.location.href='properties.html'; return false;" >Properties</a>
+            <a href="amenities.html" onclick="window.location.href='amenities.html'; return false;" >Amenities</a>
+            <a href="locations.html" onclick="window.location.href='locations.html'; return false;" >Locations</a>
+            <a href="contact.html" onclick="window.location.href='contact.html'; return false;" >Contact Us</a>
+        </nav>
+        <a href="tel:+923001234567" class="btn-phone">
+            <i class="fa-solid fa-phone"></i> +92 300 1234567
+        </a>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="badge">PREMIUM PROPERTIES</span>
+                    <h2 class="title">FIND YOUR<br><span class="highlight">DREAM HOME</span></h2>
+                    <p class="description">Discover premium properties designed<br>for modern living and a better tomorrow.</p>
+                    <div class="features-row">
+                        <div class="feature-item">
+                            <div class="icon-hexagon"><i class="fa-solid fa-location-dot"></i></div>
+                            <p>Prime<br>Locations</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="icon-hexagon"><i class="fa-solid fa-house"></i></div>
+                            <p>Modern<br>Amenities</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="icon-hexagon"><i class="fa-solid fa-shield-halved"></i></div>
+                            <p>24/7<br>Security</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-form-container">
+                    <div class="form-card">
+                        <h3>Book a Visit</h3>
+                        <p>Fill out the form below and our team<br>will contact you shortly.</p>
+                        <form action="#" method="POST">
+                            <div class="input-group">
+                                <i class="fa-regular fa-user"></i>
+                                <input type="text" placeholder="Full Name" required>
+                            </div>
+                            <div class="input-group">
+                                <i class="fa-solid fa-phone"></i>
+                                <input type="tel" placeholder="Phone Number" required>
+                            </div>
+                            <div class="input-group">
+                                <i class="fa-regular fa-envelope"></i>
+                                <input type="email" placeholder="Email Address" required>
+                            </div>
+                            <div class="input-group">
+                                <i class="fa-regular fa-building"></i>
+                                <select required>
+                                    <option value="" disabled selected>Select Property</option>
+                                    <option value="villa">Luxury Villa</option>
+                                    <option value="apartment">Modern Apartment</option>
+                                </select>
+                            </div>
+                            <div class="input-group">
+                                <i class="fa-regular fa-calendar"></i>
+                                <input type="text" placeholder="Preferred Visit Date" onfocus="(this.type='date')" onblur="(this.type='text')" required>
+                            </div>
+                            <button type="submit" class="btn-submit">BOOK NOW</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose-us">
+            <div class="section-header">
+                <h2>Why Choose <span class="text-blue">Urbana?</span></h2>
+                <div class="divider"><span class="line"></span><i class="fa-regular fa-building"></i><span class="line"></span></div>
+            </div>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div>
+                        <h3>Prime Locations</h3>
+                        <p>Carefully selected locations near schools, hospitals & hubs.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-couch"></i></div>
+                    <div>
+                        <h3>Modern Amenities</h3>
+                        <p>Enjoy world-class amenities that elevate your lifestyle.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <div>
+                        <h3>Secure & Gated</h3>
+                        <p>24/7 security with CCTV surveillance and gated community.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-dollar-sign"></i></div>
+                    <div>
+                        <h3>Best Investment</h3>
+                        <p>High potential returns in growing locations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-banner">
+                <div class="stat-item">
+                    <i class="fa-solid fa-users"></i>
+                    <div>
+                        <h4>500+</h4>
+                        <p>Happy Families</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-building"></i>
+                    <div>
+                        <h4>50+</h4>
+                        <p>Luxury Projects</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-award"></i>
+                    <div>
+                        <h4>10+</h4>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-handshake"></i>
+                    <div>
+                        <h4>100%</h4>
+                        <p>Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>&copy; 2026 Urbana Real Estate. All rights reserved.</p>
+    </footer>
+</body>
+</html>
